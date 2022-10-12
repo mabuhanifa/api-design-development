@@ -1,16 +1,17 @@
 import React from "react";
-
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Option = ({ option, correctAnswer }) => {
   const checkAnswer = () => {
     if (correctAnswer === option) {
-      alert("Correct answer");
-    }
-    else{
-        alert("Invalid answer");
+      toast.success("Correct answer");
+    } else {
+      toast.error("Invalid answer");
     }
   };
   return (
     <div key={option.id}>
+      <ToastContainer />
       <input
         type="checkbox"
         id="vehicle1"

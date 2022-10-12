@@ -8,10 +8,10 @@ const Question = ({ question }) => {
     toast(`The right answer is ${question.correctAnswer}`);
   };
   return (
-    <div className="my-10 border border-gray-300 p-3">
+    <div className="my-10 border border-gray-300 p-3 shadow-xl rounded-lg">
       <ToastContainer />
-      <h2 className="text-center font-bold text-2xl">{question.question}</h2>
-      <span className="text-2xl cursor-pointer" onClick={showAnswer}>
+      <h2 className="text-center font-bold text-2xl text-indigo-500">{question.question}</h2>
+      <span className="text-3xl cursor-pointer" onClick={showAnswer}>
         <AiFillEye />
       </span>
       {question.options.map((option) => {

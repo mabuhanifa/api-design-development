@@ -14,7 +14,7 @@ const Topics = () => {
     fetchProducts();
   }, []);
   return (
-    <div className="flex gap-5 ">
+    <div className="flex flex-col-reverse sm:flex-row gap-5 ">
       {topics &&
         topics.map((topic) => {
           return <Topic key={topic.id} topic={topic} />;

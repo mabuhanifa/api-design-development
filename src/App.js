@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="mx-20">
       <Nav />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/topics" element={<Topics />} />

@@ -2,12 +2,12 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="m-20">
+    <div className="my-10 mx-20">
       <div className="py-10">
         <h2 className="py-10 text-2xl font-bold">
           Q1. What's the purpose of React Router?
         </h2>
-        <p className="py-10">
+        <p >
           Ans: React Router is a standard library for routing in React. It
           enables the navigation among views of various components in a React
           Application, allows changing the browser URL, and keeps the UI in sync
@@ -18,7 +18,7 @@ const Blog = () => {
         <h2 className="py-10 text-2xl font-bold">
           Q2. How does Context API works?
         </h2>
-        <p className="py-10">
+        <p >
           Ans: The React Context API is a way for a React app to effectively
           produce global variables that can be passed around. This is the
           alternative to "prop drilling" or moving props from grandparent to
@@ -28,7 +28,7 @@ const Blog = () => {
       </div>
       <div className="py-10">
         <h2 className="py-10 text-2xl font-bold">Q3. What's useRef Hook?</h2>
-        <p className="py-10">
+        <p >
           Ans: The useRef returns a mutable ref object. This object has a
           property called .current. The value is persisted in the
           refContainer.current property. These values are accessed from the

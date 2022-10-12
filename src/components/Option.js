@@ -12,15 +12,15 @@ const Option = ({ option, correctAnswer }) => {
     }
   };
   return (
-    <div key={option.id}>
+    <div key={option.id} className='p-1 border border-gray-200 m-2'>
       <ToastContainer />
       <input
         type="checkbox"
         value={option}
-        className="my-5 mx-2"
+        className="my-5 mx-2 "
         onChange={checkAnswer}
       />
-      <label htmlFor="vehicle1">{option}</label>
+      <label htmlFor="vehicle1">{option} </label>
       <br />
     </div>
   );

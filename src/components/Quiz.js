@@ -8,7 +8,6 @@ const Quiz = () => {
 
   const [quiz, setQuiz] = useState([]);
   const { questions } = quiz;
-  console.log(questions?.length);
 
   useEffect(() => {
     const fetchQuiz = async () => {

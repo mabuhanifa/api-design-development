@@ -3,6 +3,7 @@ import "./App.css";
 import Blog from "./components/Blog";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
+import NotFound from "./components/NotFound";
 import Quiz from "./components/Quiz";
 import Statistics from "./components/Statistics";
 import Topics from "./components/Topics";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/topics/:id" element={<Quiz />} />
         <Route path="/statistics" element={<Statistics />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

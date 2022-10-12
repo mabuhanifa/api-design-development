@@ -27,7 +27,7 @@ const Blog = () => {
         </p>
       </div>
       <div className="py-10">
-        <h2 className="py-10 text-2xl font-bold">Q1. What's useRef Hook?</h2>
+        <h2 className="py-10 text-2xl font-bold">Q3. What's useRef Hook?</h2>
         <p className="py-10">
           Ans: The useRef returns a mutable ref object. This object has a
           property called .current. The value is persisted in the

@@ -16,3 +16,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.chart {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.line {
+  margin-right: 300px;
+}
+
+h2 {
+  text-align: center;
+}

@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Nav from "./components/Nav";
 import NotFound from "./components/NotFound";
 import Quiz from "./components/Quiz";
-import Statistics from "./components/Statistics";
+import Rechart from "./components/Rechart";
 import Topics from "./components/Topics";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/topics" element={<Topics />} />
         <Route path="/topics/:id" element={<Quiz />} />
-        <Route path="/statistics" element={<Statistics />} />
+        <Route path="/statistics" element={<Rechart />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

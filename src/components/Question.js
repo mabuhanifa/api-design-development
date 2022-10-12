@@ -16,7 +16,7 @@ const Question = ({ question }) => {
       </span>
       {question.options.map((option) => {
         return (
-          <Option option={option} correctAnswer={question.correctAnswer} />
+          <Option option={option} correctAnswer={question.correctAnswer} key={option}/>
         );
       })}
     </div>
